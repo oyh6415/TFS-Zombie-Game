@@ -115,6 +115,10 @@ public class Gun : MonoBehaviour
 
                 target.ApplyDamage(damageMessage);
             }
+            else
+            {
+                EffectManager.Instance.PlayHitEffect(hit.point, hit.normal, hit.transform);
+            }
             hitPosition = hit.point;
         }
         else //총에 아무도 맞지 않을 경우
