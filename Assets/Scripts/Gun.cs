@@ -89,6 +89,8 @@ public class Gun : MonoBehaviour
 
             lastFireTime = Time.time;
             Shot(fireTransform.position, fireDirection);
+
+            return true;
         }
         return false;
     }
