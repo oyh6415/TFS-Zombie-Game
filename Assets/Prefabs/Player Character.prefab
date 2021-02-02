@@ -579,6 +579,7 @@ GameObject:
   - component: {fileID: 5207944417218446414}
   - component: {fileID: 8296172668281226670}
   - component: {fileID: 8296172668281226671}
+  - component: {fileID: 1307034984}
   m_Layer: 8
   m_Name: Player Character
   m_TagString: Player
@@ -802,6 +803,20 @@ MonoBehaviour:
   startingHealth: 100
   deathClip: {fileID: 8300000, guid: f432291212a9c48ba829d8cf3f1a678c, type: 3}
   hitClip: {fileID: 8300000, guid: 48d89c9feb4d24625be3ef9ec3487be3, type: 3}
+--- !u!114 &1307034984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4280593159799294540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46536d91935cc452a9f552695ffec782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemPickupClip: {fileID: 8300000, guid: 0107881485be049089ce7a8ca3ed5089, type: 3}
+  lifeRemains: 3
 --- !u!1 &4562871918577949339
 GameObject:
   m_ObjectHideFlags: 0
